@@ -33,8 +33,8 @@ const FormContainer= ()=>{
         let principal = purchasePrice - downPayment;
         let monthlyInterest= loanApr/100/12;
         let numberOfPayments = loanTerm*12;
-        let monthlyPrice= (principal* [monthlyInterest * (1+monthlyInterest) * numberOfPayments])/
-        [(1+monthlyInterest) * numberOfPayments-1];
+        let monthlyPrice= (principal* [monthlyInterest * (1+monthlyInterest) ** numberOfPayments])/
+        [(1+monthlyInterest) ** numberOfPayments-1];
 
         setMonthlyPayments(monthlyPrice);
     };
