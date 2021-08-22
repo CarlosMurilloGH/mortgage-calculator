@@ -1,0 +1,88 @@
+.FormTitle{
+    text-align: center;
+}
+
+.Form{
+    padding: 15px;
+    width: 300px;
+    
+    border-radius: 20px;
+    margin:auto;
+}
+
+.HomePrice{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.HomePrice input{
+    padding: 10px;
+    width: 93%;
+    border:1px solid #cfcfd4;
+}
+
+
+.DownPayment{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.DownPayment input{
+    padding: 10px;
+    width: 93%;
+    border:1px solid #cfcfd4;
+}
+
+
+.LoanTerm{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.LoanTerm input{
+    padding: 10px;
+    width: 93%;
+    border:1px solid #cfcfd4;
+}
+
+
+.APR{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.APR input{
+    padding: 10px;
+    width: 93%;
+    border:1px solid #cfcfd4;
+}
+
+.APR input:active{
+    border:1px solid #3139f2!important;
+}
+
+.submit{
+    margin-top: 20px;
+    
+}
+
+.submit button{
+    font-size: 15px;
+    color:white;
+    font-weight: 700;
+    width: 100%;
+    background-color: #3139f2;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+
+.Result{
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+}
